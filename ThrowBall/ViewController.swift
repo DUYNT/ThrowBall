@@ -80,7 +80,6 @@ class ViewController: UIViewController {
             vX += Double(velocity.x) * 5 / width
             vY += Double(velocity.y) * 5 / height
         }
-        
     }
     
     func loop(timer: NSTimer) {
@@ -143,7 +142,6 @@ class ViewController: UIViewController {
     
     func nextTimer(){
         let size = self.view.bounds.size
-        
     }
     
     override func viewWillDisappear(animated: Bool) {
